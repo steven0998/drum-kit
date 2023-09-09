@@ -1,10 +1,8 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Drum from './drum'
+import { AudioClip } from './types';
 
-const audioClips: Audioclip[] = [
+const audioClips: AudioClip[] = [
   {
     keyTrigger: "Q",
     url : "https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3",
