@@ -1,0 +1,40 @@
+h1 {
+    position: relative;
+    margin-top: 10px;
+    color: aqua;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    color: rgb(155, 53, 124);
+}
+
+button {
+    color: rgb(255, 255, 255);
+    width: 50px;
+    height: 80px;
+}
+
+.C {
+    color: aquamarine;
+}
+
+.whole-drum {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+    margin: 50px auto;
+    width: min-content;
+}
+
+.drum-pad {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #a9f3e1;
+    background-color: rgb(2, 63, 63);
+    border-radius: 10px;
+    box-shadow: 2px 5px 8px;
+}
